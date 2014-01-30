@@ -1,0 +1,77 @@
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'SucceedIcons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-envelope, .icon-phone, .icon-mobile, .icon-map-marker, .icon-building, .icon-pencil, .icon-remove-sign, .icon-ok-sign, .icon-info-sign, .icon-ok-circle, .icon-remove-circle, .icon-envelope-alt, .icon-arrow-right, .icon-chevron-right, .icon-chevron-sign-right, .icon-chevron-left {
+	font-family: 'SucceedIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-envelope:before {
+	content: "\f003";
+}
+.icon-phone:before {
+	content: "\f095";
+}
+.icon-mobile:before {
+	content: "\f10b";
+}
+.icon-map-marker:before {
+	content: "\f041";
+}
+.icon-building:before {
+	content: "\f0f7";
+}
+.icon-pencil:before {
+	content: "\f040";
+}
+.icon-remove-sign:before {
+	content: "\f057";
+}
+.icon-ok-sign:before {
+	content: "\f058";
+}
+.icon-info-sign:before {
+	content: "\f05a";
+}
+.icon-ok-circle:before {
+	content: "\f05d";
+}
+.icon-remove-circle:before {
+	content: "\f05c";
+}
+.icon-envelope-alt:before {
+	content: "\f0e0";
+}
+.icon-arrow-right:before {
+	content: "\f061";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}
+.icon-chevron-sign-right:before {
+	content: "\f138";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
