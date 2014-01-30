@@ -1,3 +1,3 @@
 # website
 
-http://tgbd.io
+http://tgdb.io
